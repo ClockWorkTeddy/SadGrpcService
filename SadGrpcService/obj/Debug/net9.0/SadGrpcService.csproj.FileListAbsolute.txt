@@ -35,3 +35,4 @@ C:\Users\vanka\source\repos\vscode\cs\SadGrpcService\SadGrpcService\obj\Debug\ne
 C:\Users\vanka\source\repos\vscode\cs\SadGrpcService\SadGrpcService\obj\Debug\net9.0\SadGrpcService.pdb
 C:\Users\vanka\source\repos\vscode\cs\SadGrpcService\SadGrpcService\obj\Debug\net9.0\SadGrpcService.genruntimeconfig.cache
 C:\Users\vanka\source\repos\vscode\cs\SadGrpcService\SadGrpcService\obj\Debug\net9.0\ref\SadGrpcService.dll
+C:\Users\vanka\source\repos\vscode\cs\SadGrpcService\SadGrpcService\obj\Debug\net9.0\SadGrpcService.sourcelink.json
