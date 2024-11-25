@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SadGrpcService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06c3d5b2dcf3919a9a9031e7ec44d06eab5ce362")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff8c90b7750ec1173a2b16cf30f304cb1f9106f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SadGrpcService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SadGrpcService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
