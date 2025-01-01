@@ -1,4 +1,4 @@
 /.vscode
 **/bin/
 **/obj/
-.SadGrpcService\appsettings.json
+SadGrpcService/appsettings.json
