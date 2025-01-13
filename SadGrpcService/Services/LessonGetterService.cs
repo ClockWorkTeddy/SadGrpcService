@@ -9,7 +9,16 @@ namespace SadGrpcService.Services
     {
         public override Task<LessonResponse> GetLesson(LessonRequest request, ServerCallContext context)
         {
-            var lesson = dbContext.Lessons.Find(request.Id);
+            var lesson = new SadGrpcService.Models.SqlServer.Lesson();
+
+            try
+            {
+                lesson = dbContext.Lessons.Find(request.Id);
+            }
+            catch (Exception ex)
+            {
+                lesson.Date = "Some problems with database";
+            }
 
             var resultLesson = new Lesson { Date = lesson.Date, SheduledLessonId = lesson.ScheduledLessonId.Value };
             var result = new LessonResponse { Lesson = resultLesson };
